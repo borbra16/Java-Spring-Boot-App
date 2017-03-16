@@ -8,12 +8,12 @@ The app is just a normal counter which can be increased/decreased via REST-comma
 
 1.)
 Example for increasing the counter:
-http://instance-ip:8080/incrCounter
+http://instance-ip:tomcatport/incrCounter
 
 2.)
 Example for decreasing the counter:
-http://instance-ip:8080/decrCounter
+http://instance-ip:tomcatport/decrCounter
 
 3.)
 Example for reseting the counter:
-http://instance-ip:8080/resetCounter
+http://instance-ip:tomcatport/resetCounter
